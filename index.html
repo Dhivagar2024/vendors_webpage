@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendor Items</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="branding">
+        <h1>Your Wedding Planner</h1>
+        <p>Where Dreams Come True</p>
+    </div>
+    <a href="#" class="login-btn">Login/Signup</a>
+  </header>
+
+<nav>
+    <ul>
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#reviews-section">Reviews</a></li>
+        <li><a href="#vendors-section">Vendors</a></li>
+        <li><a href="#about-section">About Us</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+    </ul>
+</nav>
+  <main>
+  <h1 class="main-heading">Wedding Vendors</h1>
+  <div class="container">
+    <div class="category">
+      <h2 id="catering-heading"style="color:rgb(0, 0, 0);">Catering</h2>
+      <div class="budget-input">
+        <label for="photo-video-budget"></label>
+        <input type="text" id="photo-video-budget" placeholder="Enter your desired budget">
+      </div>
+      <div class="carousel">
+        <div class="items-container" id="catering-items"></div>
+        <button class="prev" onclick="moveCarousel('prev', 'catering')">❮</button>
+        <button class="next" onclick="moveCarousel('next', 'catering')">❯</button>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2 id="photo-video-heading" style="color:rgb(0, 0, 0);">Photographers</h2>
+      <div class="budget-input">
+        <label for="photo-video-budget"></label>
+        <input type="text" id="photo-video-budget" placeholder="Enter your desired budget">
+      </div>
+      <div class="carousel">
+        <div class="items-container" id="photo-video-items"></div>
+        <button class="prev" onclick="moveCarousel('prev', 'photo-video')">❮</button>
+        <button class="next" onclick="moveCarousel('next', 'photo-video')">❯</button>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2 id="venue-design-heading"style="color:rgb(0, 0, 0);">Venue</h2>
+      <div class="budget-input">
+        <label for="photo-video-budget"></label>
+        <input type="text" id="photo-video-budget" placeholder="Enter your desired budget">
+      </div>
+      <div class="carousel">
+        <div class="items-container" id="venue-design-items"></div>
+        <button class="prev" onclick="moveCarousel('prev', 'venue-design')">❮</button>
+        <button class="next" onclick="moveCarousel('next', 'venue-design')">❯</button>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2 id="attire-heading"style="color:rgb(0, 0, 0);">Attire</h2>
+      <div class="budget-input">
+        <label for="photo-video-budget"></label>
+        <input type="text" id="photo-video-budget" placeholder="Enter your desired budget">
+      </div>
+      <div class="carousel">
+        <div class="items-container" id="attire-items"></div>
+        <button class="prev" onclick="moveCarousel('prev', 'attire')">❮</button>
+        <button class="next" onclick="moveCarousel('next', 'attire')">❯</button>
+      </div>
+    </div>
+  </div>
+
+  </main><script src="script.js"></script>
+  <footer>
+    &copy; 2023 Your Wedding Planner. All rights reserved.
+  </footer>
+</body>
+</html>
