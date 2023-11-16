@@ -194,9 +194,9 @@ footer {
 
 .item-card {
   flex: 0 0 auto;
-  height: 405px;
+  height: 600px;
   width: 600px;
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -293,3 +293,12 @@ footer {
 .enter-button:hover {
   background-color: #004080;
 }
+body {
+    overflow-x: hidden;
+  }
+  
+  /* Or target specific containers */
+  .container {
+    overflow-x: hidden;
+  }
+  
